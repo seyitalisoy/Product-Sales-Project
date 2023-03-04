@@ -47,7 +47,7 @@ namespace DataAccess.Concrete.InMemory
 
         public void Update(Product product)
         {
-            Product productToUpdate = _products.FirstOrDefault(p=> p.ProductId == product.ProductId);
+            Product productToUpdate = _products.SingleOrDefault(p=> p.ProductId == product.ProductId); //single
             productToUpdate.CategoryId=product.CategoryId;
             productToUpdate.ProductName=product.ProductName;
             productToUpdate.UnitPrice=product.UnitPrice;
