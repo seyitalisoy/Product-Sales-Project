@@ -1,5 +1,5 @@
-# MyFinalProject
-kodlama.io Yazılım Geliştirici Yetiştirme Kampı Büyük Proje
+#  E-COMMERCE APPLICATION
+KODLAMA IO Yazılımcı Yetiştirme Kampı E-ticaret Uygulaması
 
 Highlights of this project
 
